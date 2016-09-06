@@ -1,0 +1,183 @@
+body{behavior:url("/css/csshover.htc"); font-family:Gill Sans,Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size:9pt}
+.error, td #error {color:#cc0000; font-weight:bold}
+td.warn {background:#ffcc00; font-weight:bold}
+.backout, tr.backout td {text-decoration:line-through;}
+tr.backout td.notes {text-decoration:none;}
+.grayBox{border-width:1px; border-color:#999999; border-style:solid}
+.blueBox{border:1px solid #204a87;-moz-box-shadow: 3px 3px 5px #DFDFDF; -webkit-box-shadow: 3px 3px 5px #DFDFDF; -khtml-box-shadow: 3px 3px 5px #DFDFDF; -o-box-shadow: 3px 3px 5px #DFDFDF; box-shadow: 3px 3px 5px #DFDFDF;}
+.blueBoxTitle {padding:2px; font-weight:bold; color:#fff; background-color:#204a87; text-align:left;font-size:1.2em;}
+.blueBoxTitle a {color:#fff;}
+.bbtl{padding-left:20px; text-decoration:underline; cursor:pointer;}
+.bbti{text-align:right;float:right;}
+.lblueBox{border-width:1px; border-color:#7C9CCB; width:100%; border-style:solid}
+div.tip-title{background:#FFFFCC;padding:4px;border-width:1px; border-color:#7C9CCB;}
+.lblueBoxTitle, .loadBtn{padding:2px; font-weight:bold; color:#fff; background-color:#7C9CCB; text-align:left}
+.status, .status0, .status1, .status2, .status3{font-size:10px; cursor:pointer}
+.status0, .status1, .status2, .status3{font-weight:bold; text-decoration:underline}
+.status0{color:#000}
+.status1{color:#569a56}
+.status2{color:#f90}
+.status3{color:#b33}
+
+.info{font-size:10px}
+div.redFlagBox, div.redFlagTitle, div.redFlagControls{border-width:1px; border-color:#E67028; border-style:solid; padding:2px; width:308px; max-height:450px; overflow:auto}
+div.redFlagBox{border-bottom:0px}
+div.redFlagTitle{font-weight:bold; color:#fff; background-color:#E67028}
+div.redFlagDate{text-align:right; color:#888}
+div.redFlagControls a{color:#000; font-weight:bold}
+div.redFlagControls{text-align:center; border-top:0px; background-color:#efefef}
+div.redFlag0, div.redFlag1{background:#fff; padding-bottom:4px}
+div.redFlag1{background:#eFe8E8; padding-bottom:4px}
+.formField{font-size:9pt}
+
+#userCtl {color:#555}
+#userCtl  a {color:#555; font-weight:bold;}
+#userCtl a:hover{color:#000;}
+
+tr.headTR {}
+tr.filter td{padding-bottom:4px;background:#dedede;}
+tr.heading, td.heading, tfoot td{font-weight:bold;}
+table.ruleEdit {border-spacing:0px;}
+.heading, td.ruleHeadingVeh, td.ruleHeadingRecip, td.ruleHeadingDescr, tr.heading td{font-weight:bold; border-bottom:#999 1px solid; padding:2px}
+tr.heading th{font-weight:bold; border-bottom:#999 1px solid; border-right:#999 1px solid; padding-right:10px; cursor:pointer; font-size:small;}
+tr.heading th:hover{background-color:#dde}
+.headingBig{font:bold 14pt Tahoma,Verdana,Arial,Helvetica,sans-serif; border-bottom:#999 1px solid; padding-bottom:2px}
+tr.sortHeading{font-size:9pt; background:#f1f1f1; cursor:pointer;}
+.subHeading{font:bold italic 9pt Verdana,Tahoma,Arial,Helvetica,sans-serif}
+.panelOutline{background:#004F75}
+input.loginput, input.textInput, input.smallinput{border:1px solid #cdcdcd; background:#fff; cursor:pointer}
+input.smallinput{font-size:9px}
+.warning{font-family:Verdana,Arial,Helvetica,sans-serif; font-size:9pt; color:#d30; font-weight:bold}
+.visibleTR{}
+.hiddenTR{visibility:hidden; display:none}
+td{font-size:9pt; text-align:left;}
+
+.pick0, .pick1, table.pickable td{cursor:pointer}
+tr.pick0:hover, tr.pick1:hover, .pick0:hover, .pick1:hover, .select1:hover, .select0:hover{background-color:#dde}
+div.pick0, .pick0 td, .select0 td {padding-bottom:1px; padding-top:1px;}
+.select1, .pick1, div.pick1 {background-color:#f2f1dc;padding-bottom:1px; padding-top:1px;}
+
+table.zebra {border-spacing:0px;}
+table.zebra tbody tr:nth-child(even) {background-color:#fff;}
+table.zebra tbody tr:nth-child(odd) {background-color:#e8ebef;}
+table.zebra td{padding:2px;}
+table.zebra tbody tr:hover {background-color:#dde}
+
+tr.wizardNavBar td, tr.wizardNavBar td a {color:#fff; background:#505050; text-align:center; padding:3px; line-height:15px;font-weight:bold;}
+div.footer {color:#000; text-align:center; padding:3px;border-top:3px solid #222}
+.helpHeading{color:#fff; background:#7C9CCB; font-weight:bold}
+.ruleHeading{font:bold 10pt Tahoma,Verdana,Arial,Helvetica,sans-serif}
+div.rulePart{/*border-left:1em solid;*/padding-left:7px;padding-bottom:10px}
+div.ruleVehs {border-color:#edd400;}
+div.ruleIf {border-color:#f57900;}
+div.ruleThen{border-color: #c17d11;}
+div.ruleSched{border-color:#8f5902}
+div.ruleDeactivate{border-color:#555753;}
+.attribName, .reqAttribName{padding-left:4; padding-right:4; text-align:right;}
+.reqAttribName{font-weight:bold;}
+td.eventTrip1{background:#fefede}
+td.eventCommon{background:#cedeef}
+td.eventTrip2{background:#fedede}
+td.routePointIcons{text-align:right; padding-right:5px}
+.routePoint{font-style:normal}
+.routePointDeleted{text-decoration:line-through; font-style:italic}
+.visibleObj{}
+.hiddenObj{visibility:hidden; display:none}
+/*input.filterInput{border-style:none; border-right-style:solid; border-bottom-style:solid; background-color:#efefef}*/
+table.rule{border-top:#efefef 2px solid; margin-left:20px; margin-bottom:10px}
+tr.rule, td.rule{vertical-align:top; padding-bottom:2px; padding-top:2px; cursor:pointer}
+tr.rule:hover{background-color:#dde}
+table.rule P {margin:5px}
+
+td.restart{background-image:url(/images/start.gif); padding-left:18px; background-repeat:no-repeat}
+td.stop{background-image:url(/images/stop_.gif); padding-left:18px; background-repeat:no-repeat}
+
+td.stop0{background-image:url(/images/stop_0.gif); padding-left:18px; background-repeat:no-repeat}
+li.stop1{list-style-image:url(/images/stop_1.gif)}
+li.stop2{list-style-image:url(/images/stop_2.gif)}
+li.stop3{list-style-image:url(/images/stop_3.gif)}
+li.stop4{list-style-image:url(/images/stop_4.gif)}
+li.stop5{list-style-image:url(/images/stop_5.gif)}
+li.stop6{list-style-image:url(/images/stop_6.gif)}
+td.start{background-image:url(/images/start.gif); padding-left:18px; background-repeat:no-repeat}
+li.panic{list-style-image:url(/images/panic.gif)}
+tr.drive{background-color:#FFFFF2; padding-top:3px; padding-bottom:3px}
+
+ul#tabnav{font:bold 11px verdana,arial,sans-serif; list-style-type:none; padding-bottom:26px; border-bottom:1px solid #4169ac; margin:0}
+ul#tabnav li{float:left; height:23px; background-color:#efefef; margin:2px 2px 0 2px; border:1px solid #4169ac; border-radius:0px 3px 0px 0px}
+ul#tabnav li.activeTab a {border-bottom:1px solid #fff; background-color:#fff; color:#000; border-radius:0px 3px 0px 0px}
+ul#tabnav a{float:left; display:block; color:#777; text-decoration:none; padding:4px; font-size:1.3em}
+ul#tabnav a:hover{background-color:#fff}
+
+td.today{text-align:center; background-color:#fcc}
+td.day{text-align:center; background-color:#cfc}
+td.anyday{text-align:center}
+
+.status{font-size:10px}
+.status0{color:#000; font-size:10px; font-weight:bold}
+.status1{color:#569a56; font-size:10px; font-weight:bold}
+.status2{color:#f90; font-size:10px; font-weight:bold}
+.status3{color:#b33; font-size:10px; font-weight:bold}
+
+.continueBtn{background-color:#DFFEBC; border:1px solid #0C0; font-weight:bold; padding:3px; cursor:pointer;border-radius:5px;}
+.backBtn{background-color:#FFE9BB; border:1px solid #FFD988;border-radius:5px;}
+.exitBtn{background-color:#FFCABB; border:1px solid #FF9C80;padding:3px; cursor:pointer;border-radius:5px;}
+table.dataGrid .exitBtn, table.dataGrid .continueBtn {font-size:11px}
+
+div.LabeledMarker_markerLabel{ color:#fff;  background:#222;  font-weight:bold;  white-space:nowrap;  filter:alpha(opacity=50); -moz-opacity:.5; opacity:.5}
+div.LabeledMarker_markerLabel:hover{ filter:alpha(opacity=100); -moz-opacity:1; opacity:1}
+
+div.maparea{height:480px; background-color:#E0E0E0}
+div.maparea, div.fsbox{max-width:1000px; width:expression(document.body.clientWidth >1000 ? '930px':'100%'); /*IE*/}
+div.loadBtn{color:#fff; font-weight:bold; margin-bottom:5px; cursor:pointer}
+ul.ruleList {max-height:200px; overflow:auto}
+td.ruleHeadingDescr{text-align:center; color:#666; width:460px}
+td.ruleHeadingVeh{color:#666; width:190px}
+td.ruleHeadingRecip{color:#666; width:135px}
+td.ruleCond{width:345px}
+td.ruleAlert{width:100px}
+td.ruleVeh{width:200px}
+td.ruleRecip{width:165px}
+.pre{font-family:monospace;white-space:pre;}
+.red{color:#ff0000}
+.green{color:#009900}
+.noInput {visibility:hidden;}
+.changedInput {background-color:#FFE9BB; border-color:#FFD988;}
+
+tfoot td.total {text-align:right; font-weight:bold}
+
+div.download {padding:10px;padding-left:30px;background:#f1f1f1 url(/images/download.png) no-repeat left center;margin-bottom:20px;margin-left:10px;border-radius:7px;float:left;}
+table.zebra td.mlink{padding-left:18px !important; background:url(/images/map-icon.png) no-repeat left center;cursor:pointer;}
+
+.loginMessage{background:#efefef;border-radius:5px;padding:10px;}
+
+table.tripLegend {border:1px solid #990000;margin-bottom:8px;margin-top:2px}
+table.tripLegend div.title{font-weight:bold; color:#fff; background-color:#990000;padding:3px;font-size:10pt}
+table.tripLegend .tle {border-bottom:1px solid #990000;padding:1px;width:100%}
+table.tripLegend .tle-on {background-color:#efefef;}
+table.tripLegend .tle .veh {font-weight:bold;}
+table.tripLegend .tle .color {width:15px;height:90px;align:bottom;cursor:pointer;}
+table.tripLegend .tle .tripStart {padding-bottom:2px;border-bottom:1px solid #dedede;color:#0A0;cursor:pointer;}
+table.tripLegend .tle .tripEnd {cursor:pointer;}
+table.tripLegend .tle .tripStart:hover, table.tripLegend .tle .tripEnd:hover {background:#efefef}
+table.tripLegend .tle .tripDist div {padding-right:6px;float:right;}
+table.tripLegend .tle {height:80px;}
+.ctl div, .ctl img, div.ctl {border:1px solid #ffffff;cursor:pointer;color:#0000cc; text-decoration:underline;margin:2px;text-align:right}
+.ctl div:hover, .ctl img:hover, div.ctl:hover {border-color:#DFE3EC;}
+div .ctl2, div .ctl3 {cursor:pointer;color:#0000cc;text-decoration:underline;margin:2px;}
+div .ctl3 {padding-bottom:10px}
+
+.gwt-DecoratedPopupPanel {
+  z-index: 9998
+}
+
+tr.ignOn {color:#fff;background:#007700}
+tr.ignOn:hover{background:#009900}
+tr.ignOff{color:#fff;background:#000}
+tr.ignOff:hover{background:#222}
+tr.stop{color:#fff;background:#d00}
+tr.stop:hover{background:#f00}
+tr.alert {font-weight:bold;border-top:1px solid #f00}
+
+#emailOptions table td, #rfOptions table td {padding:0px 0px 10px 5px;}
+
